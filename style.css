@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #e4e6f1;
+}
+
+.box {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  font-size: 27.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 8px;
+  text-align: center;
+  color: #48558e;
+}
+
+.box input {
+  width: 80%;
+  height: 35px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #605e5e;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #605e5e;
+}
+
+::placeholder {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #605e5e;
+}
+
+.pagination {
+  padding: 20px;
+  text-align: center;
+  color: #0dcefd;
+  border-radius: 8px;
+  margin: 5px 0px 15px;
+}
+.pagination button {
+  padding: 9px 12px;
+  color: rgb(0, 123, 255);
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.pagination #link {
+  margin: 2px 0px;
+}
+
+.prev {
+  padding: 9px 12px;
+  color: rgb(0, 123, 255);
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px 0px 0px 5px;
+  cursor: pointer;
+}
+
+.next {
+  padding: 9px 12px;
+  color: rgb(0, 123, 255);
+  background-color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+#search-result {
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.main {
+  width: 75%;
+  margin: 20px auto;
+  border: 1px solid black;
+  background-color: #99a3cc;
+}
+.main p {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+.main img {
+  width: 70%;
+  margin: 0px 50px 10px;
+}
+
+button.active {
+  background-color: rgb(0, 123, 255);
+  color: #fff;
+}
+
+@media (min-width: 670px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    background-color: #e4e6f1;
+  }
+  .box {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container h1 {
+    font-size: 27.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 8px;
+    text-align: center;
+    color: #48558e;
+  }
+  .box input {
+    width: 65%;
+    height: 35px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #605e5e;
+  }
+  ::-moz-placeholder {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #605e5e;
+  }
+  ::placeholder {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #605e5e;
+  }
+  #search-result {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .main {
+    width: 93%;
+    padding: 0px;
+    border: 1px solid black;
+    background-color: #99a3cc;
+  }
+  .main p {
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 800;
+    margin: 10px 0px 5px;
+  }
+  .main p span {
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 500;
+  }
+  .main img {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0dcefd;
+    border-radius: 8px;
+    margin: 5px 0px 15px;
+  }
+  .pagination #btn1 {
+    border-radius: 5px 0px 0px 5px;
+  }
+  .pagination #btn2 {
+    border-radius: 0px 5px 5px 0px;
+  }
+  .pagination button {
+    padding: 9px 12px;
+    color: rgb(0, 123, 255);
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .pagination button.active {
+    background-color: rgb(0, 123, 255);
+    color: #fff;
+  }
+  .pagination #link {
+    margin: 0px 0.5px;
+  }
+  .prev {
+    padding: 9px 12px;
+    color: rgb(0, 123, 255);
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+  }
+  .next {
+    padding: 9px 12px;
+    color: rgb(0, 123, 255);
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=style.css.map */
